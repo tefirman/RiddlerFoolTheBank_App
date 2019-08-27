@@ -1,1 +1,1 @@
-web: gunicorn plotlyWidget:server
+web: gunicorn CounterfeitRiddlerWidget:server
