@@ -32,7 +32,7 @@ def expectedWinnings(realBills,pctAnalyzed,detectionProb):
     probs = []
     winnings = []
     expected = []
-    for fakeBills in range(501):
+    for fakeBills in range(301):
         numAnalyzed = round(pctAnalyzed*(realBills + fakeBills))
         choose_k = [np.exp(logFactorial(fakeBills) \
         - logFactorial(fakesAnalyzed) \
